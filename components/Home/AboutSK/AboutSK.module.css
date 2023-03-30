@@ -1,0 +1,103 @@
+.aboutSKSection{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.skAbout{
+    -webkit-box-shadow: 0 2px 48px 0 rgb(0 0 0 / 4%);
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 4%);
+    border: solid 10px #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.skrAboutImgHolder{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    /* padding-bottom: 70%; */
+}
+
+.skrAboutImgHolder > span{
+    width: 100% !important;
+    height: 100% !important;
+}
+.skrAboutImg {
+    position: absolute;
+    top: 0;
+    width: 100% !important;
+    height: 100% !important;
+    -o-object-fit: cover !important;
+    object-fit: cover !important;
+    -o-object-position: center !important;
+    object-position: center !important;
+    transition: 0.4s ease-in-out;
+}
+.skrAboutImg:hover{
+    transform: scale(1.05);
+}
+
+.skrAboutTextDivOne{
+    padding: 60px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.skrAboutTextHeadingOne {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #383A4E;
+}
+
+.skrAboutTextParaOne{
+    max-width: 800px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #64688C;
+}
+
+.aboutButton{
+    outline: inherit;
+    -webkit-box-shadow: 0 0 0 10px #ffffff, 0 2px 48px 0 rgb(0 0 0 / 4%);
+    box-shadow: 0 0 0 10px #ffffff, 0 2px 48px 0 rgb(0 0 0 / 4%);
+    cursor: pointer;
+    border: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 40px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    white-space: nowrap;
+    color: #FFFFFF !important;
+    background-color: #3B61DD;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+.aboutButton:hover{
+    color: #fff;
+    filter: brightness(120%);
+}

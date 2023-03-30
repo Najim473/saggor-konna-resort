@@ -1,0 +1,67 @@
+.restaurantSummarySection{
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.skrFeaturedCard{
+    -webkit-box-shadow: 0 2px 48px 0 rgb(0 0 0 / 4%);
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 4%);
+    z-index: 2;
+    position: relative;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 10px 10px 0;
+}
+
+.skrFeaturedCard:before {
+    content: '';
+    width: 500px;
+    height: 10px;
+    background-color: #FFFFFF;
+    position: absolute;
+    z-index: 999;
+    top: calc(50% - 5px);
+    left: -500px;
+}
+
+
+/* here is the problem  */
+.skrFeaturedCard:after {
+    content: '';
+    width: 500px;
+    height: 10px;
+    background-color: #FFFFFF;
+    position: absolute;
+    z-index: 999;
+    top: calc(50% - 5px);
+    right: -500px;
+}
+
+.skrIconBox{
+
+    -webkit-box-shadow: inset 0 2px 48px 0 rgb(0 0 0 / 4%);
+    box-shadow: inset 0 2px 48px 0 rgb(0 0 0 / 4%);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #F2FFFF;
+    padding: 30px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    /* border: solid 10px #FFFFFF; */
+    margin-bottom: 10px;
+    height: calc(100% - 10px);
+    /* height: 100%; */
+    border: none;
+}
+
+.skrCounterNumber {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    font-family: 'Monoton', cursive;
+}
+
+.skrFeaturedGrid{
+    margin-top: 0 !important;
+}

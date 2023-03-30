@@ -1,0 +1,108 @@
+
+.skrRestaurantImageFrame {
+    border: solid 10px #FFFFFF;
+    position: relative;
+    overflow: hidden !important;
+    border-radius: 10px;
+    padding-bottom: 65%;
+    -webkit-box-shadow: 0 2px 48px 0 rgb(0 0 0 / 4%);
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 4%);
+}
+
+.skrRestaurantImageFrame a > span {
+    border-radius: 5px;
+    overflow: hidden  !important;
+}
+
+.skrRestaurantImageRounded{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    border-radius: 5px;
+    overflow: hidden !important;
+    z-index: 1;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+.skrRestaurantZoom{
+     opacity: 0;
+      z-index: 9;
+      background-color: rgba(255, 255, 255, 0.3);
+      border: solid 2px #FFFFFF;
+      position: absolute;
+      top: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 50px;
+      height: 50px;
+      border-radius: 50% !important;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      left: 50%;
+      top: 50%;
+      margin-left: -20px;
+      margin-top: -20px;
+      color: #FFFFFF;
+      -webkit-transform: scale(0.5) translateY(15px);
+      transform: scale(0.5) translateY(15px);
+      font-size: 13px;
+      -webkit-transition: 0.2s ease-in-out;
+      transition: 0.2s ease-in-out;
+  }
+  
+  
+  .skrRestaurantImageFrame:hover .skrRestaurantImageRounded{
+    transform: scale(1.05);
+  }
+  
+  .skrRestaurantImageFrame:hover .skrRestaurantZoom{
+    transform: scale(1.05);
+    opacity: 1;
+  }
+
+.skrBadge{
+    border-radius: 3px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 4;
+    -webkit-box-shadow: 0 0 0 5px rgb(255 255 255 / 15%);
+    box-shadow: 0 0 0 5px rgb(255 255 255 / 15%);
+    background-color: #EBA744;
+    padding: 1px 10px;
+}
+
+.navigators{
+    height: 40px;
+    border-radius: 20px;
+    color: #383A4E;
+    background-color: #FFFFFF;
+    width: 120px;
+    position: relative;
+    right: 0px;
+    bottom: 9px;
+    /* z-index: 1111; */
+}
+
+.prevArrow, .nextArrow{
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.prevArrow:hover, .nextArrow:hover{
+    
+}

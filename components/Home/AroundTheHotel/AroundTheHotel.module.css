@@ -1,0 +1,194 @@
+.aroundTheHotelSection{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+
+.aroundHeadingText{
+    margin-bottom: 20px;
+    color: #383A4E;
+    }
+    
+    .aroundParagraph{
+        max-width: 800px;
+        margin-bottom: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        letter-spacing: 1px;
+        color: var(--secondaryColor);
+    }
+
+
+.skrAthCard{
+    -webkit-box-shadow: 0 2px 48px 0 rgb(0 0 0 / 4%);
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 4%);
+    margin-bottom: 20px;
+    position: relative;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.skrCoverFrame{
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 130%;
+}
+
+.skrCoverFrameImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+.skrCardDescription{
+    padding: 30px;
+    width: calc(100% - 60px);
+    max-height: 85px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    -webkit-box-shadow: 0 0 0 10px rgb(255 255 255 / 20%);
+    box-shadow: 0 0 0 10px rgb(255 255 255 / 20%);
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+.skrCardDescription h4{
+    transition: 0.2s ease-in-out;
+}
+
+.skrCardDescription .skrButton, .skrCardDescription p{
+    transform: translateY(60px);
+      opacity: 0;
+      transition: 0.2s ease-in-out;
+}
+
+.skrAthCard:hover .skrCoverFrameImg{
+ transform: scale(1.05);
+}
+.skrAthCard:hover .skrCardDescription{
+max-height: 250px;
+}
+.skrAthCard:hover .skrButton, .skrAthCard:hover p{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.2s;
+}
+
+
+/* .knsl-ath-card {
+  box-shadow: $shadow;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 10px;
+  background-color: $bg;
+  border-radius: 10px;
+
+  & .knsl-cover-frame {
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 130%;
+
+    & img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      object-position: center;
+      transition: 0.4s ease-in-out;
+    }
+  }
+
+  & .knsl-card-description {
+    padding: 30px;
+    width: calc(100% - 60px);
+    max-height: 85px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: $bg;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    box-shadow: 0 0 0 10px rgba(255,255,255,.2);
+    transition: 0.4s ease-in-out;
+
+    & h4 {
+      transition: 0.2s ease-in-out;
+    }
+
+    & .knsl-btn,
+    & p {
+      transform: translateY(60px);
+      opacity: 0;
+      transition: 0.2s ease-in-out;
+    }
+  }
+
+  &:hover {
+    & .knsl-cover-frame {
+      & img {
+        transform: scale(1.05);
+      }
+    }
+
+    & .knsl-card-description {
+      max-height: 250px;
+
+      & .knsl-btn,
+      & p {
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: 0.2s;
+      }
+    }
+  }
+
+  &.knsl-ath-card-2 {
+    & .knsl-cover-frame {
+      padding-bottom: 85%;
+    }
+
+    & .knsl-card-description {
+      max-height: 500px;
+
+      &:hover {
+        & h4 {
+          color: $accent-3;
+        }
+      }
+    }
+  }
+} */
+
+
+/* .skrAuthCard2 .skrCoverFrame {
+    padding-bottom: 85%;
+}
+
+.skrAuthCard2 .skrCardDescription{
+    max-height: 500px;
+}
+.skrAuthCard2 .skrCardDescription:hover h4{
+ color: var(--secondaryColor);
+} */

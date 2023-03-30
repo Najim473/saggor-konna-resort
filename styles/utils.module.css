@@ -1,0 +1,9 @@
+
+/* for the background color and margin padding of the body except the header footer  */
+.mainApp {
+    min-height: 50vh;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background: var(--primaryBg);
+  }
+

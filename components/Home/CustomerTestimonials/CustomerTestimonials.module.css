@@ -1,0 +1,24 @@
+.testimonialContainer{
+    padding-bottom: 80px;
+    background-color: #ECFAFB;
+}
+
+.testimonialContainer > span {
+    position: absolute !important;
+    z-index: 0;
+    width: 50%;
+    top: 20%;
+    left: -30%;
+}
+
+
+.skrTextFrameParagraph{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    letter-spacing: 1px;
+    color:  #64688C;
+}
+
+

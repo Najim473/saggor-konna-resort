@@ -1,0 +1,22 @@
+
+
+.navigators{
+    height: 40px;
+    border-radius: 20px;
+    color: #383A4E;
+    background-color: #FFFFFF;
+    width: 120px;
+    position: relative;
+    right: 0px;
+    bottom: 9px;
+    /* z-index: 1111; */
+}
+
+.prevArrow, .nextArrow{
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.prevArrow:hover, .nextArrow:hover{
+    
+}

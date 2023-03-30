@@ -1,0 +1,226 @@
+.contact_container{
+    overflow-x: hidden;
+}
+ .contact_text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .contact_text h1{
+    font-size: 55px;
+ }
+ .contact_text p{
+    font-size: 18px;
+    width: 1000px;
+ }
+ .contact_box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+ }
+ .contact_hr{
+    width: 100vw;
+    background:#ffffff;
+    height: 10px;
+    position: absolute;
+    z-index: 1;
+ }
+ .contact_flex{
+     background:#ffffff;
+     display: flex;
+     padding: 10px;
+     justify-content: space-between;
+     border-radius: 10px;
+     position: relative;
+     z-index: 2;
+ }
+ .contact_flex div{
+    background: #ECFAFB;
+   text-align: center;
+   border-radius: 10px;
+   width: 410px;
+   padding: 20px;
+ } 
+ .contact_flex div span{
+    display: flex;
+    justify-content: center;
+    color: rgba(0,0,0,0.3);
+    font-size: 40px;
+    padding: 10px 0px;
+ }
+ .contact_flex div h3{
+    font-size: 20px;
+ }
+ .contact_map_iframe{
+   background: #ffffff;
+   /* padding: 10px; */
+   border-radius: 20px;
+   padding: 10px;
+ }
+ .contact_lotcation_txt h2{
+ font-size: 25px;
+ padding: 30px 0px;
+}
+ .contact_map_iframe iframe{
+    background: #ffffff;
+    /* padding: 10px; */
+    border-radius: 20px;
+
+ }
+ .contact_waiting_text{
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.contact_waiting_sort_des{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.contact_waiting_sort_des h2{
+ font-size: 35px;
+}
+.contact_waiting_sort_des p{
+ font-size: 15px;
+ text-align: center;
+ max-width: 1000px;
+}
+.contact_waiting_text button{
+   background: #3B61DD;
+   border: none;
+   margin-top:15px;
+   display: block;
+   outline: 8px solid #ffffff;
+   border-radius: 20px;
+   padding:15px 30px;
+   color: #ffffff;
+   cursor: pointer;
+   transition: all .5s;
+   letter-spacing: .8px;
+}
+.contact_waiting_text button:hover{
+   background: #5470cc;
+}
+.contact_message h2{
+   font-size: 22px;
+   font-weight: bold;
+   letter-spacing: .5px;
+   opacity: .7;
+   padding: 20px 0px;
+}
+.contact_input{
+   display: flex;
+   padding-right: 15px;
+   }
+   .contact_input input{
+      height: 50px;
+      outline: none !important;
+      border: none;     
+       }
+       .contact_input input::placeholder, .review_textarea::placeholder{
+           padding-left: 20px;
+           font-weight: 100;
+       }
+       .contact_input input:focus{
+        border: red !important;
+       outline: none !important;
+       }
+   .contact_input input:nth-child(1){
+       margin-right: 10px;
+   } 
+   .contact_input input:nth-child(2){
+       margin-left: 10px;
+   }
+   .contact_textarea{
+       margin-top: 20px;
+       width: 100%;
+       border: none;
+   }
+.contact_submit_btn button{
+   background: #3B61DD;
+   border: none;
+   margin:25px 0;
+   display: block;
+   outline: 8px solid #ffffff;
+   border-radius: 20px;
+   padding:15px 30px;
+   color: #ffffff;
+   cursor: pointer;
+   font-size: 15px;
+   transition: all .5s;
+   letter-spacing: 1px;
+}
+.contact_submit_btn button:hover{
+background: #5470cc;
+}
+ /* MEDIA  */
+ @media only screen and (max-width:1345px){
+   .contact_flex div{
+     width: 390px;
+   } 
+ }
+ @media only screen and (max-width:1288px){
+   .contact_flex div{
+     width: 372px;
+   } 
+ }
+ @media only screen and (max-width:1218px){
+   .contact_flex div{
+     width: 360px;
+   } 
+ }
+ @media only screen and (max-width:1200px){
+   .contact_flex div{
+     width: 305px;
+   } 
+ }
+ @media only screen and (max-width:1024px){
+    .contact_flex{
+        flex-direction: column;
+    }
+    .contact_flex div{
+        width: 100% !important;        
+    }
+    .contact_flex div:nth-child(1){
+        margin-bottom: 10px;
+    }
+    .contact_flex div:nth-child(2){
+        margin-bottom: 10px;
+    }
+ }
+ @media only screen and (max-width:992px){
+   .contact_waiting_sort_des h2{
+      font-size: 25px;
+     }
+     .contact_waiting_sort_des p{
+      font-size: 12px; 
+     }
+ }
+ @media only screen and (max-width:505px){
+   .contact_waiting_sort_des h2{
+      font-size: 15px;
+     }
+     .contact_waiting_sort_des p{
+            font-size: 8px;   
+     }
+ }
+ @media only screen and (max-width:768px){
+   .contact_input{
+      display: flex;
+      flex-direction: column;
+      align-items: center !important;
+      justify-content: center;
+      height: 120px !important;
+   }
+   .contact_input input:first-child{
+      margin-bottom: 20px;
+      width: 103.5% !important;
+      margin-left: 20px;
+       }
+       .contact_input input:last-child{
+         width: 103.5% !important;
+          }
+ }
