@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+
 const useInterception = (divRef) => {
   const callBackFunc = (entries) => {
     const [entry] = entries;
