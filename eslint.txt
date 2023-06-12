@@ -1,0 +1,1444 @@
+[
+  {
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\about\\index.js": "1",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\api\\blogData.js": "2",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\api\\gallery.js": "3",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\api\\hello.js": "4",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\api\\menuListData.js": "5",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\api\\offer.js": "6",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\api\\roomData.js": "7",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\api\\serviceData.js": "8",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\blogs\\index.js": "9",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\blogs\\[blogId]\\index.js": "10",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\contact\\index.js": "11",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\gallery\\index.js": "12",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\index.js": "13",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\membership\\index.js": "14",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\offers\\index.js": "15",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\restaurant\\index.js": "16",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\restaurant\\menu\\index.js": "17",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\rooms\\index.js": "18",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\rooms\\[roomno].js": "19",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\_app.js": "20",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\_document.js": "21",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\About\\DirectorSpeech\\index.js": "22",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\About\\ServiceOffered\\index.js": "23",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\About\\TeamMembers\\index.js": "24",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\About\\VIdeoComponent\\index.js": "25",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Blogs\\BlogHeader\\index.js": "26",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Blogs\\BlogsList\\index.js": "27",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Blogs\\BlogsList\\SingleBlog\\index.js": "28",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Blogs\\PopularBlogs\\index.js": "29",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Contact\\contact.js": "30",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Footer.js": "31",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Gallery\\GalleryImg.js": "32",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\AboutSK\\index.js": "33",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\AroundTheHotel\\index.js": "34",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\AroundTheHotel\\Services\\index.js": "35",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\AroundTheHotel\\Services\\ServiceCard\\index.js": "36",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\CustomerTestimonials\\index.js": "37",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\HomeBlogs\\index.js": "38",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\HotelRoomsSummary\\index.js": "39",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\HotelSummarySection\\index.js": "40",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\SKGallery\\index.js": "41",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\TopBannerBooking\\index.js": "42",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Layout.js": "43",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Memberships\\Membership.js": "44",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Menu\\MenuListToShow\\index.js": "45",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Menu\\SpecialMenu\\index.js": "46",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Navbar\\index.js": "47",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Navbar\\MenuList\\DropDown\\index.js": "48",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Navbar\\MenuList\\index.js": "49",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Offers\\OfferList\\index.js": "50",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Offers\\OfferList\\SingleOffer\\index.js": "51",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Offers\\OfferTopBanner\\index.js": "52",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Offers\\SagorKonnaCommon\\index.js": "53",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Restaurant\\RestaurantGallery\\index.js": "54",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Restaurant\\RestaurantMenu\\index.js": "55",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Restaurant\\RestaurantMenu\\MenuCard\\index.js": "56",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Restaurant\\RestaurantSummary\\index.js": "57",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Restaurant\\RestaurantTeam\\index.js": "58",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Restaurant\\RestaurantVideoComponent\\index.js": "59",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Restaurant\\TopBannerForRestaurnat\\index.js": "60",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Reviews\\Reviews.js": "61",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\room\\RoomCard.js": "62",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\SingleBlog\\SingleBlogComments\\index.js": "63",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\SingleBlog\\SingleBlogDetail\\index.js": "64",
+    "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\SingleBlog\\SingleBlogHeader\\index.js": "65"
+  },
+  {
+    "size": 2610,
+    "mtime": 1686557820791,
+    "results": "66",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 17520,
+    "mtime": 1686557820793,
+    "results": "68",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 918,
+    "mtime": 1686557820793,
+    "results": "69",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 175,
+    "mtime": 1686557820794,
+    "results": "70",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 2440,
+    "mtime": 1686557820795,
+    "results": "71",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 1287,
+    "mtime": 1686557820795,
+    "results": "72",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 6965,
+    "mtime": 1686560025987,
+    "results": "73",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 653,
+    "mtime": 1686557820797,
+    "results": "74",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 643,
+    "mtime": 1686557820799,
+    "results": "75",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 1363,
+    "mtime": 1686557820798,
+    "results": "76",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 185,
+    "mtime": 1686557820800,
+    "results": "77",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 617,
+    "mtime": 1686557820801,
+    "results": "78",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 1302,
+    "mtime": 1686557820801,
+    "results": "79",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 230,
+    "mtime": 1686557820802,
+    "results": "80",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 763,
+    "mtime": 1686557820803,
+    "results": "81",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 1824,
+    "mtime": 1686557820805,
+    "results": "82",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 846,
+    "mtime": 1686557820806,
+    "results": "83",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 871,
+    "mtime": 1686561914705,
+    "results": "84",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 1028,
+    "mtime": 1686557820807,
+    "results": "85",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 688,
+    "mtime": 1686557820788,
+    "results": "86",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 786,
+    "mtime": 1686557820789,
+    "results": "87",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 2145,
+    "mtime": 1686557820712,
+    "results": "88",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 2762,
+    "mtime": 1686557820714,
+    "results": "89",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 3279,
+    "mtime": 1686557820716,
+    "results": "90",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 2613,
+    "mtime": 1686557820718,
+    "results": "91",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 1006,
+    "mtime": 1686557820720,
+    "results": "92",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 442,
+    "mtime": 1686557820722,
+    "results": "93",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 1687,
+    "mtime": 1686557820721,
+    "results": "94",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 4338,
+    "mtime": 1686557820724,
+    "results": "95",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 5030,
+    "mtime": 1686557820725,
+    "results": "96",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 9869,
+    "mtime": 1686557820726,
+    "results": "97",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 558,
+    "mtime": 1686557820727,
+    "results": "98",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 3486,
+    "mtime": 1686557820729,
+    "results": "99",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 2527,
+    "mtime": 1686557820734,
+    "results": "100",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 1249,
+    "mtime": 1686557820733,
+    "results": "101",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 1120,
+    "mtime": 1686557820732,
+    "results": "102",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 13093,
+    "mtime": 1686557820735,
+    "results": "103",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 7193,
+    "mtime": 1686557820737,
+    "results": "104",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 3206,
+    "mtime": 1686557820739,
+    "results": "105",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 3396,
+    "mtime": 1686557820741,
+    "results": "106",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 7836,
+    "mtime": 1686557820742,
+    "results": "107",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 9983,
+    "mtime": 1686557820744,
+    "results": "108",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 399,
+    "mtime": 1686557820745,
+    "results": "109",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 18555,
+    "mtime": 1686557820746,
+    "results": "110",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 1537,
+    "mtime": 1686557820748,
+    "results": "111",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 4088,
+    "mtime": 1686557820750,
+    "results": "112",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 4473,
+    "mtime": 1686557820752,
+    "results": "113",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 944,
+    "mtime": 1686557820751,
+    "results": "114",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 1629,
+    "mtime": 1686557820752,
+    "results": "115",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 573,
+    "mtime": 1686557820756,
+    "results": "116",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 1101,
+    "mtime": 1686557820755,
+    "results": "117",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 1065,
+    "mtime": 1686557820758,
+    "results": "118",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 2175,
+    "mtime": 1686557820759,
+    "results": "119",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 10567,
+    "mtime": 1686557820761,
+    "results": "120",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 4062,
+    "mtime": 1686557820763,
+    "results": "121",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 1150,
+    "mtime": 1686557820762,
+    "results": "122",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 2643,
+    "mtime": 1686557820765,
+    "results": "123",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 3079,
+    "mtime": 1686557820767,
+    "results": "124",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 2732,
+    "mtime": 1686557820769,
+    "results": "125",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 2998,
+    "mtime": 1686557820770,
+    "results": "126",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 4530,
+    "mtime": 1686557820772,
+    "results": "127",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 6651,
+    "mtime": 1686562355314,
+    "results": "128",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 4530,
+    "mtime": 1686557820773,
+    "results": "129",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 4207,
+    "mtime": 1686557820775,
+    "results": "130",
+    "hashOfConfig": "67"
+  },
+  {
+    "size": 557,
+    "mtime": 1686557820777,
+    "results": "131",
+    "hashOfConfig": "67"
+  },
+  {
+    "filePath": "132",
+    "messages": "133",
+    "suppressedMessages": "134",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "9k8h1",
+  {
+    "filePath": "135",
+    "messages": "136",
+    "suppressedMessages": "137",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "138",
+    "messages": "139",
+    "suppressedMessages": "140",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "141",
+    "messages": "142",
+    "suppressedMessages": "143",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "144",
+    "messages": "145",
+    "suppressedMessages": "146",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "147",
+    "messages": "148",
+    "suppressedMessages": "149",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "150",
+    "messages": "151",
+    "suppressedMessages": "152",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "153",
+    "messages": "154",
+    "suppressedMessages": "155",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "156",
+    "messages": "157",
+    "suppressedMessages": "158",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "159",
+    "messages": "160",
+    "suppressedMessages": "161",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "162",
+    "messages": "163",
+    "suppressedMessages": "164",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "165",
+    "messages": "166",
+    "suppressedMessages": "167",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "168",
+    "messages": "169",
+    "suppressedMessages": "170",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "171",
+    "messages": "172",
+    "suppressedMessages": "173",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "174",
+    "messages": "175",
+    "suppressedMessages": "176",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "177",
+    "messages": "178",
+    "suppressedMessages": "179",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "180",
+    "messages": "181",
+    "suppressedMessages": "182",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "183",
+    "messages": "184",
+    "suppressedMessages": "185",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "186",
+    "messages": "187",
+    "suppressedMessages": "188",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "189",
+    "messages": "190",
+    "suppressedMessages": "191",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "192",
+    "messages": "193",
+    "suppressedMessages": "194",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "195",
+    "messages": "196",
+    "suppressedMessages": "197",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "198",
+    "messages": "199",
+    "suppressedMessages": "200",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "201",
+    "messages": "202",
+    "suppressedMessages": "203",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "204",
+    "messages": "205",
+    "suppressedMessages": "206",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "207",
+    "messages": "208",
+    "suppressedMessages": "209",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "210",
+    "messages": "211",
+    "suppressedMessages": "212",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "213",
+    "messages": "214",
+    "suppressedMessages": "215",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "216",
+    "messages": "217",
+    "suppressedMessages": "218",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "219",
+    "messages": "220",
+    "suppressedMessages": "221",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "222",
+    "messages": "223",
+    "suppressedMessages": "224",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "225",
+    "messages": "226",
+    "suppressedMessages": "227",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "228",
+    "messages": "229",
+    "suppressedMessages": "230",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "231",
+    "messages": "232",
+    "suppressedMessages": "233",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "234",
+    "messages": "235",
+    "suppressedMessages": "236",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "237",
+    "messages": "238",
+    "suppressedMessages": "239",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "240",
+    "messages": "241",
+    "suppressedMessages": "242",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "243",
+    "messages": "244",
+    "suppressedMessages": "245",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "246",
+    "messages": "247",
+    "suppressedMessages": "248",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "249",
+    "messages": "250",
+    "suppressedMessages": "251",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "252",
+    "messages": "253",
+    "suppressedMessages": "254",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "255",
+    "messages": "256",
+    "suppressedMessages": "257",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "258",
+    "messages": "259",
+    "suppressedMessages": "260",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "261",
+    "messages": "262",
+    "suppressedMessages": "263",
+    "errorCount": 2,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "264",
+    "messages": "265",
+    "suppressedMessages": "266",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "267",
+    "messages": "268",
+    "suppressedMessages": "269",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "270",
+    "messages": "271",
+    "suppressedMessages": "272",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "273",
+    "messages": "274",
+    "suppressedMessages": "275",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "276",
+    "messages": "277",
+    "suppressedMessages": "278",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "279",
+    "messages": "280",
+    "suppressedMessages": "281",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "282",
+    "messages": "283",
+    "suppressedMessages": "284",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "285",
+    "messages": "286",
+    "suppressedMessages": "287",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "288",
+    "messages": "289",
+    "suppressedMessages": "290",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "291",
+    "messages": "292",
+    "suppressedMessages": "293",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "294",
+    "messages": "295",
+    "suppressedMessages": "296",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "297",
+    "messages": "298",
+    "suppressedMessages": "299",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "300",
+    "messages": "301",
+    "suppressedMessages": "302",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "303",
+    "messages": "304",
+    "suppressedMessages": "305",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "306",
+    "messages": "307",
+    "suppressedMessages": "308",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "309",
+    "messages": "310",
+    "suppressedMessages": "311",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "312",
+    "messages": "313",
+    "suppressedMessages": "314",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 2,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "315",
+    "messages": "316",
+    "suppressedMessages": "317",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "318",
+    "messages": "319",
+    "suppressedMessages": "320",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "321",
+    "messages": "322",
+    "suppressedMessages": "323",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "324",
+    "messages": "325",
+    "suppressedMessages": "326",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\about\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\api\\blogData.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\api\\gallery.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\api\\hello.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\api\\menuListData.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\api\\offer.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\api\\roomData.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\api\\serviceData.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\blogs\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\blogs\\[blogId]\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\contact\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\gallery\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\membership\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\offers\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\restaurant\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\restaurant\\menu\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\rooms\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\rooms\\[roomno].js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\_app.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\pages\\_document.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\About\\DirectorSpeech\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\About\\ServiceOffered\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\About\\TeamMembers\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\About\\VIdeoComponent\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Blogs\\BlogHeader\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Blogs\\BlogsList\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Blogs\\BlogsList\\SingleBlog\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Blogs\\PopularBlogs\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Contact\\contact.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Footer.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Gallery\\GalleryImg.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\AboutSK\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\AroundTheHotel\\index.js",
+  [
+    "327"
+  ],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\AroundTheHotel\\Services\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\AroundTheHotel\\Services\\ServiceCard\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\CustomerTestimonials\\index.js",
+  [
+    "328"
+  ],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\HomeBlogs\\index.js",
+  [
+    "329"
+  ],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\HotelRoomsSummary\\index.js",
+  [
+    "330"
+  ],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\HotelSummarySection\\index.js",
+  [
+    "331"
+  ],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\SKGallery\\index.js",
+  [
+    "332"
+  ],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Home\\TopBannerBooking\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Layout.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Memberships\\Membership.js",
+  [
+    "333",
+    "334"
+  ],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Menu\\MenuListToShow\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Menu\\SpecialMenu\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Navbar\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Navbar\\MenuList\\DropDown\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Navbar\\MenuList\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Offers\\OfferList\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Offers\\OfferList\\SingleOffer\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Offers\\OfferTopBanner\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Offers\\SagorKonnaCommon\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Restaurant\\RestaurantGallery\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Restaurant\\RestaurantMenu\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Restaurant\\RestaurantMenu\\MenuCard\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Restaurant\\RestaurantSummary\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Restaurant\\RestaurantTeam\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Restaurant\\RestaurantVideoComponent\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Restaurant\\TopBannerForRestaurnat\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\Reviews\\Reviews.js",
+  [
+    "335",
+    "336"
+  ],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\room\\RoomCard.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\SingleBlog\\SingleBlogComments\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\SingleBlog\\SingleBlogDetail\\index.js",
+  [],
+  [],
+  "C:\\Users\\najim\\Downloads\\saggor-konna-resort\\components\\SingleBlog\\SingleBlogHeader\\index.js",
+  [],
+  [],
+  {
+    "ruleId": "337",
+    "severity": 1,
+    "message": "338",
+    "line": 36,
+    "column": 47,
+    "nodeType": "339",
+    "endLine": 36,
+    "endColumn": 54
+  },
+  {
+    "ruleId": "337",
+    "severity": 1,
+    "message": "340",
+    "line": 58,
+    "column": 49,
+    "nodeType": "339",
+    "endLine": 58,
+    "endColumn": 56
+  },
+  {
+    "ruleId": "337",
+    "severity": 1,
+    "message": "341",
+    "line": 39,
+    "column": 63,
+    "nodeType": "339",
+    "endLine": 39,
+    "endColumn": 70
+  },
+  {
+    "ruleId": "337",
+    "severity": 1,
+    "message": "342",
+    "line": 34,
+    "column": 45,
+    "nodeType": "339",
+    "endLine": 34,
+    "endColumn": 52
+  },
+  {
+    "ruleId": "337",
+    "severity": 1,
+    "message": "343",
+    "line": 33,
+    "column": 42,
+    "nodeType": "339",
+    "endLine": 33,
+    "endColumn": 49
+  },
+  {
+    "ruleId": "337",
+    "severity": 1,
+    "message": "344",
+    "line": 44,
+    "column": 65,
+    "nodeType": "339",
+    "endLine": 44,
+    "endColumn": 72
+  },
+  {
+    "ruleId": "345",
+    "severity": 2,
+    "message": "346",
+    "line": 22,
+    "column": 28,
+    "nodeType": "347",
+    "messageId": "348"
+  },
+  {
+    "ruleId": "345",
+    "severity": 2,
+    "message": "346",
+    "line": 339,
+    "column": 32,
+    "nodeType": "347",
+    "messageId": "348"
+  },
+  {
+    "ruleId": "349",
+    "severity": 1,
+    "message": "350",
+    "line": 20,
+    "column": 13,
+    "nodeType": "351",
+    "endLine": 25,
+    "endColumn": 15
+  },
+  {
+    "ruleId": "349",
+    "severity": 1,
+    "message": "350",
+    "line": 52,
+    "column": 13,
+    "nodeType": "351",
+    "endLine": 57,
+    "endColumn": 15
+  },
+  "react-hooks/exhaustive-deps",
+  "The ref value 'animationAroundRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'animationAroundRef.current' to a variable inside the effect, and use that variable in the cleanup function.",
+  "Identifier",
+  "The ref value 'animationFeedBackRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'animationFeedBackRef.current' to a variable inside the effect, and use that variable in the cleanup function.",
+  "The ref value 'blogTextRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'blogTextRef.current' to a variable inside the effect, and use that variable in the cleanup function.",
+  "The ref value 'animationRoomRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'animationRoomRef.current' to a variable inside the effect, and use that variable in the cleanup function.",
+  "The ref value 'roomDetailRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'roomDetailRef.current' to a variable inside the effect, and use that variable in the cleanup function.",
+  "The ref value 'animationRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'animationRef.current' to a variable inside the effect, and use that variable in the cleanup function.",
+  "react/no-unescaped-entities",
+  "`'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.",
+  "JSXText",
+  "unescapedEntityAlts",
+  "jsx-a11y/alt-text",
+  "Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.",
+  "JSXOpeningElement"
+]
